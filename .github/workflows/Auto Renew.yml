@@ -33,7 +33,7 @@ jobs:
         MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
         ANON_KEY: ${{ secrets.ANON_KEY }}
       # tee 命令可以让日志同时输出到屏幕并保存到客户端文件中
-      run: python renew1.py | tee renew.log
+      run: python renew.py | tee renew.log
 
     # 5. 发送 TG 通知 (无论前一步成功还是失败都会执行)
     - name: Send Telegram Notification

@@ -1,4 +1,4 @@
-# 🚀 Freemchost 服务器全自动续期助手 (全新链式安全版)
+# 🚀 Freemchost 服务器全自动续期助手 (使用gemini生成)
 
 [注册地址](https://freemchost.com)
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
